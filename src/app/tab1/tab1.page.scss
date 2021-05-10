@@ -1,0 +1,28 @@
+.fakeItem {
+  h2, h3, p {
+    background-color: lightgrey;
+    opacity: 0.5;
+    height: 1em;
+    margin-top: 10px;
+  }
+
+  h2 {
+    width: 35%;
+  }
+
+  h3 {
+    width: 40%;
+  }
+
+  p {
+    width: 60%;
+  }
+}
+/* Custom Skeleton Line Height and Margin */
+.custom-skeleton ion-skeleton-text {
+  line-height: 13px;
+}
+
+.custom-skeleton ion-skeleton-text:last-child {
+  margin-bottom: 5px;
+}
